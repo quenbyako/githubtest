@@ -1,0 +1,54 @@
+name: Bug Report
+description: Create a bug report to help us fix it
+labels: [bug]
+assignees:
+  - quenbyako
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please fill the form below.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: snippet
+    attributes:
+      label: Code snippet
+      description: Use [Go Playground](https://play.golang.org/). Even if your code doesn't work in playground, we need to see, what have you done :)
+    validations:
+      required: true
+  - type: checkboxes
+    id: goreleaser-check
+    attributes:
+      label: GoReleaser Check
+      description: 'If I run `goreleaser check` it shows no errors'
+      options:
+        - label: goreleaser check shows no errors
+          required: true
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Search
+      options:
+        - label: I did search for other open and closed issues before opening this.
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/goreleaser/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: textarea
+    id: ctx
+    attributes:
+      label: Additional context
+      description: Anything else you would like to add
+    validations:
+      required: false
