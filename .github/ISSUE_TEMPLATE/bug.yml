@@ -1,5 +1,6 @@
 name: Bug Report
 description: Create a bug report to help us fix it
+title: '[BUG]: '
 labels: [bug]
 assignees:
   - quenbyako
@@ -25,8 +26,6 @@ body:
   - type: checkboxes
     id: goreleaser-check
     attributes:
-      label: GoReleaser Check
-      description: 'If I run `goreleaser check` it shows no errors'
       options:
         - label: goreleaser check shows no errors
           required: true
