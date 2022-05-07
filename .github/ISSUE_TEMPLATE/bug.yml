@@ -26,6 +26,7 @@ body:
   - type: checkboxes
     id: goreleaser-check
     attributes:
+      label: false
       options:
         - label: goreleaser check shows no errors
           required: true
