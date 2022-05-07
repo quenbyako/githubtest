@@ -1,6 +1,5 @@
 name: Bug Report
 description: Create a bug report to help us fix it
-title: '[BUG]: '
 labels: [bug]
 assignees:
   - quenbyako
@@ -20,30 +19,19 @@ body:
     id: snippet
     attributes:
       label: Code snippet
-      description: Use [Go Playground](https://play.golang.org/). Even if your code doesn't work in playground, we need to see, what have you done :)
+      description: "Use [Go Playground](https://play.golang.org/). Even if your code doesn't work in playground, we need to see, what have you done :)"
     validations:
       required: true
   - type: checkboxes
-    id: goreleaser-check
+    id: checks
     attributes:
-      label: false
+      label: Requirements before submitting new issue
       options:
-        - label: goreleaser check shows no errors
+        - label: 'I got this bug on latest version, and, if not, I updated library to latest version, and tested again'
           required: true
-  - type: checkboxes
-    id: search
-    attributes:
-      label: Search
-      options:
-        - label: I did search for other open and closed issues before opening this.
+        - label: I searched for other open and closed issues before opening this, and there is no one, describing this bug.
           required: true
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/goreleaser/.github/blob/main/CODE_OF_CONDUCT.md)
-      options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/goreleaser/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
   - type: textarea
     id: ctx
