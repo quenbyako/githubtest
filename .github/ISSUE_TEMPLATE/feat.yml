@@ -1,4 +1,4 @@
-name: Feature request
+name: ✨ Feature request
 description: Create a bug report to help us fix it
 title: '[FEAT]: '
 labels: [bug]
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report! Please fill the form below.
+        Thanks for taking the time to create new feature request! Please fill the form below.
   - type: textarea
     id: description
     attributes:
