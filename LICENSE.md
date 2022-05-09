@@ -23,7 +23,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-For legal entities under russian jurisdiction, see [this page][license_ru].
-
-[license_ru]: https://github.com/xelaj/tl "License for russian legal entities"
