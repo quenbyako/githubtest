@@ -1,6 +1,21 @@
 The MIT License (MIT)
 =====================
 
+<!-- 
+
+This License works Worldwide, except russian territories, territories occupied
+by russian government and foreign companies, works in russian legal field. For
+legal entities under russian jurisdiction, see [this page][license_ru].
+
+Данная Лицензия распостраняется на все страны, кроме российских территорий,
+территорий оккупированных российскими властями, а так же зарубежных компаний,
+действующих в российском юридическом поле. Для лиц, находящихся прямо или
+косвенно под российской юрисдикцией, действует [эта лицензия][license_ru].
+
+Если есть вопросы, пожалуйста, ознакомьтесь с [этой статьей][comment_ru].
+
+-->
+
 Copyright © `2022` `Xelaj Software`
 
 Permission is hereby granted, free of charge, to any person
