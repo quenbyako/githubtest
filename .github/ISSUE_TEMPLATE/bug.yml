@@ -1,6 +1,6 @@
 name: 🐛 Bug Report
 description: Create a bug report to help us fix it
-title: '[BUG]: '
+title: '🐛 '
 labels: [bug]
 assignees:
   - quenbyako
