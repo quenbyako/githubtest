@@ -27,7 +27,7 @@ jobs:
       # Runs a single command using the runners shell
       - uses: mshick/add-pr-comment@v1
         with:
-          message: ${{ PIPELINE_RESPONSE }}
+          message: ${{ env.pipeline_response }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: false
