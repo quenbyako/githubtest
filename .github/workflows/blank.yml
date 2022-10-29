@@ -21,11 +21,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
+      - shell: bash
+        run: echo "### Hello world! 🚀" >> $PIPELINE_RESPONSE
+  
       # Runs a single command using the runners shell
       - uses: mshick/add-pr-comment@v1
         with:
-          message: |
-            ### Hello world! 🚀
+          message: ${{ PIPELINE_RESPONSE }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
           allow-repeats: false
