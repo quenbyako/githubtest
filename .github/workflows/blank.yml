@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - shell: bash
-        run: echo "### Hello world! 🚀" >> $PIPELINE_RESPONSE
+        run: echo pipeline_response=$(echo "### Hello world! 🚀") >> $GITHUB_ENV
   
       # Runs a single command using the runners shell
       - uses: mshick/add-pr-comment@v1
