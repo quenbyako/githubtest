@@ -13,7 +13,7 @@ legal entities under russian jurisdiction, see [this page][license_ru].
 косвенно под российской юрисдикцией, действует [эта лицензия][license_ru].
 
 Если есть вопросы, пожалуйста, ознакомьтесь с [этой статьей][comment_ru].
-
+jjjjjjj
 -->
 
 Copyright © `2022` `Xelaj Software`
